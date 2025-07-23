@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthBot</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .chatbox {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 1em;
+            background: #f4f4f4;
+        }
+        .message {
+            margin-bottom: 1em;
+        }
+        .disclaimer {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 1em;
+        }
+        .quick-replies button {
+            margin: 0.2em;
+        }
+    </style>
+</head>
+<body class="section">
+    <div class="container">
+        <h1 class="title">HealthBot</h1>
+        <div class="disclaimer">
+            ⚠️ This chatbot is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.
+        </div>
+
+        <div class="chatbox" id="chatbox"></div>
+
+        <div class="field">
+            <div class="control">
+                <input class="input" type="text" id="userInput" placeholder="Type your message...">
+            </div>
+        </div>
+        <button class="button is-primary" onclick="sendMessage()">Send</button>
+
+        <div class="quick-replies">
+            <strong>Quick Topics:</strong><br>
+            <button class="button is-light" onclick="setQuick('I have a fever')">Fever</button>
+            <button class="button is-light" onclick="setQuick('I feel tired all the time')">Fatigue</button>
+            <button class="button is-light" onclick="setQuick('I have a headache')">Headache</button>
+            <button class="button is-light" onclick="setQuick('I need tips for staying healthy')">Health Tips</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
