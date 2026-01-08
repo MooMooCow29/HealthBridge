@@ -5,7 +5,7 @@ import cohere
 app = Flask(__name__)
 CORS(app)
 
-co = cohere.Client('YP5uy3bwSLaASV86LYJ2nHIqCc5qcTOitSpc191hS')  # Replace with your real API key
+co = cohere.Client('')  # Replace with your real API key
 
 # Context memory
 conversation_history = []
