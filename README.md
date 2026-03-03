@@ -9,7 +9,7 @@ A chatbot and clinic locator for healthcare-scarce regions
 
 #### Problem
 
-Sub-Saharan Africa faces a persistent healthcare crisis. Over **600 million people** lack access to essential medical services \[6]. Despite holding **16% of the world’s population**, the region receives only **1% of global health expenditure** while carrying **23% of the global disease burden** \[6]\[7]. Structural challenges - such as limited infrastructure, understaffed facilities, and rural isolation — severely restrict access to timely care \[6].
+Sub-Saharan Africa faces a persistent healthcare crisis. Over **600 million people** lack access to essential medical services \[6]. Despite holding **16% of the world’s population**, the region receives only **1% of global health expenditure** while carrying **23% of the global disease burden** \[6]\[7]. Structural challenges - such as limited infrastructure, understaffed facilities, and rural isolation - severely restrict access to timely care \[6].
 
 ---
 
